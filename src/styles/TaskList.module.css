@@ -1,0 +1,19 @@
+.taskListHolder {
+	display: grid;
+	grid-template-columns: 2fr 4fr 2fr 1fr 1fr 1fr 1fr 1fr;
+	border: 1px solid black;
+	row-gap: 10px;
+	column-gap: 10px;
+}
+.row {
+	display: contents;
+}
+.row::after {
+	content: "";
+	grid-column: 1/9;
+	border-bottom: 1px solid gray;
+}
+.deleteButton {
+	width: fit-content;
+	cursor: pointer;
+}

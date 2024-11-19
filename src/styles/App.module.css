@@ -1,0 +1,13 @@
+.InputsHolder {
+	/* outline: 1px solid red; */
+	display: flex;
+	gap: 0.5em;
+	align-items: center;
+	margin-bottom: 0.2em;
+}
+
+.InputsHolder > * {
+	padding: 0;
+	margin: 0;
+	height: 2em;
+}
